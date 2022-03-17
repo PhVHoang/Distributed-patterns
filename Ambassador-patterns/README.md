@@ -5,4 +5,4 @@ So, why do we need to proxy the application connection requests? Because we need
 
 The value of the ambassador pattern is twofold. First, as with the other single-node patterns, there is inherent value in building modular, resuable containers. The separation of
 concerns makes the containers easier to build and maintain. Likewise, the ambassador container can be reused with a number of different application containers. 
-This reuse speeds up application development because the container’s code can be reused in a number of places. Additionally the implementation is both more consis‐ tent and of a higher quality because it is built once and used in many different con‐ texts.
+This reuse speeds up application development because the container’s code can be reused in a number of places. Additionally the implementation is both more consis‐ tent and of a higher quality because it is built once and used in many different contexts.
